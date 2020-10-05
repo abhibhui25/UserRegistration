@@ -16,8 +16,13 @@ public class UserRegistration {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter First Name: ");
 		String first = sc.next();
-		boolean result = Pattern.matches("^[A-Z][aA-zZ]{2,}", first);
-		return result;
+		if (Pattern.matches("^[A-Z][aA-zZ]{2,}", first)) {
+			System.out.println("valid");
+			return true;
+		} else {
+			System.out.println("invalid");
+			return firstName();
+		}
 	}
 
 	/**
@@ -27,8 +32,13 @@ public class UserRegistration {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Last Name: ");
 		String last = sc.next();
-		boolean result = Pattern.matches("^[A-Z][aA-zZ]{2,}", last);
-		return result;
+		if (Pattern.matches("^[A-Z][aA-zZ]{2,}", last)) {
+			System.out.println("valid");
+			return true;
+		} else {
+			System.out.println("invalid");
+			return lastName();
+		}
 	}
 
 	/**
@@ -38,10 +48,15 @@ public class UserRegistration {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter email: ");
 		String email = sc.next();
-		boolean result = Pattern.matches(
+		if (Pattern.matches(
 				"^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9]+)*@" + "[_A-Za-z0-9-]+(\\.[_A-Za-z0-9]+){0,1}(\\.[A-Za-z]{2,})$",
-				email);
-		return result;
+				email)) {
+			System.out.println("valid");
+			return true;
+		} else {
+			System.out.println("invalid");
+			return email();
+		}
 	}
 
 	/**
@@ -60,21 +75,28 @@ public class UserRegistration {
 		}
 	}
 
+	/**
+	 * UC5-Validate password
+	 */
+	public static boolean passwordCheck() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter password: ");
+		String password = sc.next();
+		if (Pattern.matches("[\\S]{8,}", password)) {
+			System.out.println("valid");
+			return true;
+		} else {
+			System.out.println("invalid");
+			return passwordCheck();
+		}
+	}
+
 	public static void main(String[] args) {
 		System.out.println("Welcome to user registration");
-		if (firstName())
-			System.out.println("valid");
-		else
-			System.out.println("invalid");
-		if (lastName())
-			System.out.println("valid");
-		else
-			System.out.println("invalid");
-		if (email())
-			System.out.println("valid");
-		else
-			System.out.println("invalid");
+		firstName();
+		lastName();
+		email();
 		mobileNo();
-
+		passwordCheck();
 	}
 }
