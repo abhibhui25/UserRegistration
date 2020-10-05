@@ -76,7 +76,7 @@ public class UserRegistration {
 	}
 
 	/**
-	 * UC5,UC6,UC7,UC8-Validate password
+	 * UC5,UC6,UC7,UC8,UC9-Validate password
 	 */
 	public static boolean passwordCheck() {
 		Scanner sc = new Scanner(System.in);
