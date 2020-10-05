@@ -44,6 +44,22 @@ public class UserRegistration {
 		return result;
 	}
 
+	/**
+	 * UC4-Validate mobile number
+	 */
+	public static boolean mobileNo() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter mobile number: ");
+		String mobile = sc.next();
+		if (Pattern.matches("^[0-9]{2}\\s[0-9]{10}$", mobile)) {
+			System.out.println("valid");
+			return true;
+		} else {
+			System.out.println("Invalid");
+			return mobileNo();
+		}
+	}
+
 	public static void main(String[] args) {
 		System.out.println("Welcome to user registration");
 		if (firstName())
@@ -58,6 +74,7 @@ public class UserRegistration {
 			System.out.println("valid");
 		else
 			System.out.println("invalid");
+		mobileNo();
 
 	}
 }
