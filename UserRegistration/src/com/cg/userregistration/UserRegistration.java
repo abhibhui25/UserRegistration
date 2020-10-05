@@ -82,7 +82,8 @@ public class UserRegistration {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter password: ");
 		String password = sc.next();
-		if (Pattern.matches("[\\S]{8,}", password)&& Pattern.matches(".*[A-Z].*", password)) {
+		if (Pattern.matches("[\\S]{8,}", password) && Pattern.matches(".*[A-Z].*", password)
+				&& Pattern.matches(".*[0-9].*", password)) {
 			System.out.println("valid");
 			return true;
 		} else {
