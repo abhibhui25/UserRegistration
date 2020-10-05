@@ -76,14 +76,14 @@ public class UserRegistration {
 	}
 
 	/**
-	 * UC5,UC6-Validate password
+	 * UC5,UC6,UC7,UC8-Validate password
 	 */
 	public static boolean passwordCheck() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter password: ");
 		String password = sc.next();
 		if (Pattern.matches("[\\S]{8,}", password) && Pattern.matches(".*[A-Z].*", password)
-				&& Pattern.matches(".*[0-9].*", password)) {
+				&& Pattern.matches(".*[0-9].*", password) && Pattern.matches(".*[\\W]{1}.*", password)) {
 			System.out.println("valid");
 			return true;
 		} else {
