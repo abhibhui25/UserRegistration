@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cg.userregistration.TestUser" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-10-09T14:37:59" hostname="LAPTOP-9CGGNV1K" time="0.01">
+  <properties/>
+  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue" classname="com.cg.userregistration.TestUser" time="0.002"/>
+  <testcase name="givenPassword_IfNoCapital_ShouldReturnFalse" classname="com.cg.userregistration.TestUser" time="0.0"/>
+  <testcase name="givenMobileNo_WhenNotProper_ShouldReturnFalse" classname="com.cg.userregistration.TestUser" time="0.001"/>
+  <testcase name="givenPassword_IfMoreThanOneSpecialCharacter_ShouldReturnFalse" classname="com.cg.userregistration.TestUser" time="0.0"/>
+  <testcase name="givenEmail_WhenNotProper_ShouldReturnFalse" classname="com.cg.userregistration.TestUser" time="0.0"/>
+  <testcase name="givenLastName_WhenNotProper_ShouldReturnFalse" classname="com.cg.userregistration.TestUser" time="0.0"/>
+  <testcase name="givenFirstName_WhenNotProper_ShouldReturnFalse" classname="com.cg.userregistration.TestUser" time="0.0"/>
+  <testcase name="givenPassword_IfNoNumber_ShouldReturnFalse" classname="com.cg.userregistration.TestUser" time="0.001"/>
+  <testcase name="givenLastName_WhenProper_ShouldReturnTrue" classname="com.cg.userregistration.TestUser" time="0.0"/>
+  <testcase name="givenPassword_WhenProper_ShouldReturnTrue" classname="com.cg.userregistration.TestUser" time="0.0"/>
+  <testcase name="givenPassword_IfLessThan8Characters_ShouldReturnFalse" classname="com.cg.userregistration.TestUser" time="0.0"/>
+  <testcase name="givenEmail_WhenProper_ShouldReturnTrue" classname="com.cg.userregistration.TestUser" time="0.0"/>
+  <testcase name="givenMobileNo_WhenProper_ShouldReturnTrue" classname="com.cg.userregistration.TestUser" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
