@@ -1,2 +1,0 @@
-com/cg/userregistration/TestUser.java
- com.cg.userregistration.TestUser
