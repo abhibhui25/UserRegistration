@@ -22,7 +22,11 @@ public class TestMaximum {
         i="blr";
     }
     @Test
-    public void givenIntegers_IfMaxAtPosition1_ShouldReturnTrue(){
+    public void givenIntegers_IfMaxAtPosition1_ShouldPass(){
         Assert.assertSame(m.maxInteger(a,b,c),a);
+    }
+    @Test
+    public void givenIntegers_IfMaxAtPosition2_ShouldPass(){
+        Assert.assertSame(m.maxInteger(b,a,c),a);
     }
 }
