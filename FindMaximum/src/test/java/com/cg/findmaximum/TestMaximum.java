@@ -53,4 +53,8 @@ public class TestMaximum {
     public void givenStrings_IfMaxAtPosition2_ShouldPass(){
         Assert.assertSame(m.maxString(h,g,i),g);
     }
+    @Test
+    public void givenStrings_IfMaxAtPosition3_ShouldPass(){
+        Assert.assertSame(m.maxString(h,i,g),g);
+    }
 }
