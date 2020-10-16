@@ -33,5 +33,8 @@ public class TestMaximum {
     public void givenIntegers_IfMaxAtPosition3_ShouldPass(){
         Assert.assertSame(m.maxInteger(b,c,a),a);
     }
-
+    @Test
+    public void givenFloats_IfMaxAtPosition1_ShouldPass(){
+        Assert.assertSame(m.maxFloat(d,e,f),d);
+    }
 }
