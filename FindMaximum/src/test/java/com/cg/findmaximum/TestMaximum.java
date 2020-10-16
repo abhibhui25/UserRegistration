@@ -37,4 +37,8 @@ public class TestMaximum {
     public void givenFloats_IfMaxAtPosition1_ShouldPass(){
         Assert.assertSame(m.maxFloat(d,e,f),d);
     }
+    @Test
+    public void givenFloats_IfMaxAtPosition2_ShouldPass(){
+        Assert.assertSame(m.maxFloat(e,d,f),d);
+    }
 }
