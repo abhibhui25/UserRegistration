@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.findmaximum.TestMaximum" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-16T16:59:07" hostname="LAPTOP-KI37BD8L" time="0.006">
+<testsuite name="com.cg.findmaximum.TestMaximum" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-10-16T17:43:59" hostname="LAPTOP-KI37BD8L" time="0.016">
   <properties/>
-  <testcase name="givenIntegers_IfMaxAtPosition1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.003"/>
+  <testcase name="givenGenerics_IfMaxAtPosition3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.001"/>
+  <testcase name="givenStrings_IfMaxAtPosition1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
+  <testcase name="givenStrings_IfMaxAtPosition2_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.001"/>
+  <testcase name="givenStrings_IfMaxAtPosition3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.001"/>
+  <testcase name="givenIntegers_IfMaxAtPosition1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
   <testcase name="givenIntegers_IfMaxAtPosition2_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.001"/>
-  <testcase name="givenIntegers_IfMaxAtPosition3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.001"/>
-  <testcase name="givenFloats_IfMaxAtPosition1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.001"/>
+  <testcase name="givenIntegers_IfMaxAtPosition3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
+  <testcase name="givenFloats_IfMaxAtPosition1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
+  <testcase name="givenGenerics_IfMaxAtPosition1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
+  <testcase name="givenFloats_IfMaxAtPosition2_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.001"/>
+  <testcase name="givenGenerics_IfMaxAtPosition2_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
+  <testcase name="givenFloats_IfMaxAtPosition3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

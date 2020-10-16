@@ -47,14 +47,28 @@ public class TestMaximum {
     }
     @Test
     public void givenStrings_IfMaxAtPosition1_ShouldPass(){
-        Assert.assertSame(m.maxString(g,h,i),g);
+        Assert.assertSame(m.maxString(g,h,i),i);
     }
     @Test
     public void givenStrings_IfMaxAtPosition2_ShouldPass(){
-        Assert.assertSame(m.maxString(h,g,i),g);
+        Assert.assertSame(m.maxString(h,g,i),i);
     }
     @Test
     public void givenStrings_IfMaxAtPosition3_ShouldPass(){
-        Assert.assertSame(m.maxString(h,i,g),g);
+        Assert.assertSame(m.maxString(h,i,g),i);
+    }
+    @Test
+    public void givenGenerics_IfMaxAtPosition1_ShouldPass() {
+        Assert.assertSame(m.maxGeneric(a, b, c), a);
+    }
+
+    @Test
+    public void givenGenerics_IfMaxAtPosition2_ShouldPass() {
+        Assert.assertSame(m.maxGeneric(e, d, f), d);
+    }
+
+    @Test
+    public void givenGenerics_IfMaxAtPosition3_ShouldPass() {
+        Assert.assertSame(m.maxGeneric(h,i,g), i);
     }
 }
