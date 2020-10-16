@@ -29,5 +29,9 @@ public class TestMaximum {
     public void givenIntegers_IfMaxAtPosition2_ShouldPass(){
         Assert.assertSame(m.maxInteger(b,a,c),a);
     }
+    @Test
+    public void givenIntegers_IfMaxAtPosition3_ShouldPass(){
+        Assert.assertSame(m.maxInteger(b,c,a),a);
+    }
 
 }
