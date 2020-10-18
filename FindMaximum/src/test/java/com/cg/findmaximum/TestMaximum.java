@@ -5,21 +5,25 @@ import org.junit.Test;
 
 public class TestMaximum {
     FindMaximum m=new FindMaximum();
-    Integer a,b,c;
-    Float d,e,f;
-    String g,h,i;
+    MaxGeneric gen=new MaxGeneric();
+    Integer a,b,c,p;
+    Float d,e,f,q;
+    String g,h,i,r;
 
     @Before
     public void initialValues(){
         a=10;
         b=5;
         c=2;
+        p=1;
         d=5.0f;
         e=3.0f;
         f=1.0f;
+        q=0.5f;
         g="Abhishek";
         h="Bhui";
         i="blr";
+        r="India";
     }
     @Test
     public void givenIntegers_IfMaxAtPosition1_ShouldPass(){
@@ -70,5 +74,17 @@ public class TestMaximum {
     @Test
     public void givenGenerics_IfMaxAtPosition3_ShouldPass() {
         Assert.assertSame(m.maxGeneric(h,i,g), i);
+    }
+    @Test
+    public void givenGenerics_IfGenericMaxClass1_ShouldPass() {
+        Assert.assertSame(gen.testMaximum(a,b,c,p),a);
+    }
+    @Test
+    public void givenGenerics_IfGenericMaxClass2_ShouldPass() {
+        Assert.assertSame(gen.testMaximum(d,e,f,q),d);
+    }
+    @Test
+    public void givenGenerics_IfGenericMaxClass3_ShouldPass() {
+        Assert.assertSame(gen.testMaximum(g,h,i,r),i);
     }
 }
