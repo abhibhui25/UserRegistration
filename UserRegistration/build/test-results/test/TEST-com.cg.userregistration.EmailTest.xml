@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cg.userregistration.EmailTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-10-18T14:59:16" hostname="LAPTOP-KI37BD8L" time="0.017">
+  <properties/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[0]" classname="com.cg.userregistration.EmailTest" time="0.002"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[1]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[2]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[3]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[4]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[5]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[6]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[7]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[8]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[9]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[10]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[11]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[12]" classname="com.cg.userregistration.EmailTest" time="0.001"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[13]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[14]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[15]" classname="com.cg.userregistration.EmailTest" time="0.003"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[16]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[17]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[18]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[19]" classname="com.cg.userregistration.EmailTest" time="0.001"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue[20]" classname="com.cg.userregistration.EmailTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
