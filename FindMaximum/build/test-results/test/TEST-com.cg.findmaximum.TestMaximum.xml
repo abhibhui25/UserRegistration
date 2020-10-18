@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.findmaximum.TestMaximum" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-10-18T14:35:40" hostname="LAPTOP-KI37BD8L" time="0.033">
+<testsuite name="com.cg.findmaximum.TestMaximum" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-10-18T14:45:58" hostname="LAPTOP-KI37BD8L" time="0.033">
   <properties/>
   <testcase name="givenGenerics_IfMaxAtPosition3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.002"/>
   <testcase name="givenStrings_IfMaxAtPosition1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
-  <testcase name="givenGenerics_IfGenericMaxClass1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
+  <testcase name="givenGenerics_IfGenericMaxClass1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.009"/>
   <testcase name="givenStrings_IfMaxAtPosition2_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
-  <testcase name="givenGenerics_IfGenericMaxClass2_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
-  <testcase name="givenStrings_IfMaxAtPosition3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
-  <testcase name="givenGenerics_IfGenericMaxClass3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.001"/>
+  <testcase name="givenGenerics_IfGenericMaxClass2_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.007"/>
+  <testcase name="givenStrings_IfMaxAtPosition3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.001"/>
+  <testcase name="givenGenerics_IfGenericMaxClass3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.002"/>
   <testcase name="givenIntegers_IfMaxAtPosition1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
   <testcase name="givenIntegers_IfMaxAtPosition2_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
   <testcase name="givenIntegers_IfMaxAtPosition3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
-  <testcase name="givenFloats_IfMaxAtPosition1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.002"/>
-  <testcase name="givenGenerics_IfMaxAtPosition1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.005"/>
-  <testcase name="givenFloats_IfMaxAtPosition2_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.001"/>
+  <testcase name="givenFloats_IfMaxAtPosition1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
+  <testcase name="givenGenerics_IfMaxAtPosition1_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
+  <testcase name="givenFloats_IfMaxAtPosition2_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
   <testcase name="givenGenerics_IfMaxAtPosition2_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
-  <testcase name="givenFloats_IfMaxAtPosition3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenFloats_IfMaxAtPosition3_ShouldPass" classname="com.cg.findmaximum.TestMaximum" time="0.0"/>
+  <system-out><![CDATA[The maximum of: 
+10, 
+5, 
+2, 
+1, 
+is 10
+The maximum of: 
+5.0, 
+3.0, 
+1.0, 
+0.5, 
+is 5.0
+The maximum of: 
+Abhishek, 
+Bhui, 
+blr, 
+India, 
+is blr
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

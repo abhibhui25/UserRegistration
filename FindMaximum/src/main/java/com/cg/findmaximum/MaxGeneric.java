@@ -14,9 +14,19 @@ public class MaxGeneric<T> {
             array.add(e);
         }
         Collections.sort(array);
+        printMax(array.get(array.size()-1),elements);
         return array.get(array.size()-1);
     }
 
+    public static <T> void printMax(T max,T... elements)
+    {
+        System.out.println("The maximum of: ");
+        for(T e:elements)
+        {
+            System.out.println(e+", ");
+        }
+        System.out.println("is "+ max );
+    }
     public static void main(String[] args) {
 
         MaxGeneric g=new MaxGeneric();
